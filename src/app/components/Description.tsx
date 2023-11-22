@@ -28,7 +28,7 @@ const Description = () => {
             vel officia qui doloremque nesciunt? Modi nemo animi quas.
             Dignissimos.
           </p>
-          <Button title="book an appointment" containerStyles="rounded-full bg-blue-400 py-3 px-8 mx-10 my-10" textStyles="text-white capitalize font-bold text-lg hover:opacity-75" />
+          <Button title="book an appointment" containerStyles="rounded-full bg-blue-400 py-3 px-8 mx-10 my-10" textStyles="text-white capitalize font-bold text-lg" />
         </div>
         <div className="w-[50%]">
           <Image src="/doctor1.png" alt="doctor1" width={400} height={400} />

@@ -17,8 +17,8 @@ const Hero = () => {
               get best doctors in{" "}
               <span className="font-extrabold">Medicine</span>!
             </h1>
-            <p className="text-3xl py-6">The world of modern medicine</p>
-            <p className="text-lg font-sans">
+            <p className="text-3xl py-6 text-black">The world of modern medicine</p>
+            <p className="text-lg font-sans text-black">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Blanditiis, provident ea. Ut deserunt blanditiis animi. Nesciunt
               quibusdam expedita harum consequuntur dolore architecto voluptas
@@ -33,8 +33,8 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className={`bg-white text-black w-[20%] mt-[4.6rem] ml-[4.3rem] h-[35vh] ${isShow? '': 'hidden'}`}>
-          <Link href="/" className="flex">
+        <div className={`bg-white text-black w-[20%] mt-[4.6rem] ml-[4.3rem] h-[40vh] ${isShow? '': 'hidden'}`}>
+          <Link href="/" className="flex hover:bg-gray-200">
             <Image
               src="/britain.png"
               alt="britain map"
@@ -44,7 +44,7 @@ const Hero = () => {
             />
             <p className="font-bold text-xl my-3 mx-2">English</p>
           </Link>
-          <Link href="/" className="flex">
+          <Link href="/" className="flex hover:bg-gray-200">
             <Image
               src="/france.png"
               alt="france map"
@@ -54,7 +54,7 @@ const Hero = () => {
             />
             <p className="font-bold text-xl my-3 mx-2">French</p>
           </Link>
-          <Link href="/" className="flex">
+          <Link href="/" className="flex hover:bg-gray-200">
             <Image
               src="/france.png"
               alt="france map"
@@ -64,7 +64,7 @@ const Hero = () => {
             />
             <p className="font-bold text-xl my-3 mx-2">Francais</p>
           </Link>
-          <Link href="/" className="flex">
+          <Link href="/" className="flex hover:bg-gray-200">
             <Image
               src="/spain.png"
               alt="spain map"
@@ -74,7 +74,7 @@ const Hero = () => {
             />
             <p className="font-bold text-xl my-3 mx-2">Espagnol</p>
           </Link>
-          <Link href="/" className="flex">
+          <Link href="/" className="flex hover:bg-gray-200">
             <Image
               src="/german.png"
               alt="german map"

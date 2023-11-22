@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Homepage, Login, Signup } from './components'
+import { Homepage } from './components'
 export default function Home() {
   return (
     <main>

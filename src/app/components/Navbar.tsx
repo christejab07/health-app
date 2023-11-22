@@ -8,7 +8,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <div className="flex flex-row px-8 py-4 max-md:flex-col bg-white fixed bg-fixed bg-contain w-[100%] z-10">
+      <div className="flex flex-row px-8 h-auto py-3 max-md:flex-col bg-gray-50 fixed bg-fixed bg-contain w-[100%] z-10">
         <Link href="/" className="flex">
           <Image
             src="/charity.png"
@@ -32,25 +32,26 @@ const Navbar = () => {
             containerStyles="text-black text-xl capitalize font-light hover:text-blue-600 transition-all font-sans rounded-sm px-8 mx-3"
           />
         </Link>
-        <Link href="/" className="flex">
+        <Link href="/contact" className="flex">
           <Button
             title="Contact"
             btnType="button"
             containerStyles="text-black text-xl capitalize font-light hover:text-blue-600 transition-all font-sans rounded-sm px-8 mx-3"
           />
         </Link>
-        <Link href="/" className="flex">
+        <Link href="/login" className="flex">
           <Button
-            title="Testimonial"
+            // title="Testimonial"
+            title="login"
             btnType="button"
             containerStyles="text-black text-xl capitalize font-light hover:text-blue-600 transition-all font-sans rounded-sm px-8 mx-3"
           />
         </Link>
         <Link
-          href="/"
+          href="/doctors"
           className="flex border-blue-400 bg-blue-400 rounded-md px-2 mx-10"
         >
-          <FontAwesomeIcon icon={faSearch} width={20} className="mt-4" />
+          <FontAwesomeIcon icon={faSearch} width={20} className="mt-5" />
           <button
             type="button"
             className="px-1 font-bold border-1 transition-all no-underline text-black text-lg font-sans hover:underline"
@@ -65,16 +66,17 @@ const Navbar = () => {
           <Image
             src="/britain.png"
             alt="britain map"
-            width={40}
+            width={35}
             height={30}
             className="border-full ml-5 h-8 my-2"
           />
           <p className="font-bold text-xl my-3 mx-1">English</p>
-          <FontAwesomeIcon icon={faChevronDown} width={30} className="mt-4" />
+          <FontAwesomeIcon icon={faChevronDown} width={30} className="mt-5" />
         </Link>
-        <Link href="/" className="flex">
+        <Link href="/help" className="flex">
           <Button
-            title="help"
+            // title="help"
+            title="signup"
             btnType="button"
             containerStyles="text-black text-xl capitalize font-light hover:text-blue-600 transition-all font-sans rounded-sm px-8 mx-3"
           />
