@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import Description from "./Description";
 import Footer from "./Footer";
 import DoctorTemplate from "./doctemp";
+import Booking from "../reserve/page";
 export {
     Homepage,
     Hero,
@@ -13,5 +14,6 @@ export {
     Navbar,
     Description,
     Footer,
-    DoctorTemplate
+    DoctorTemplate,
+    Booking
 }

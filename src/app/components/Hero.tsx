@@ -10,15 +10,15 @@ const Hero = () => {
   };
   return (
     <>
-      <div className="flex px-20 py-2 bg-hero-bg bg-no-repeat bg-cover opacity-90">
+      <div className="flex px-20 py-2 bg-hero-bg bg-no-repeat bg-cover max-md:px-5">
         <div className="flex-row flex padding-x text-white capitalize lg:w-[60%]">
           <div className="pt-20">
-            <h1 className="font-medium font-sans text-8xl py-10">
+            <h1 className="font-medium font-sans text-8xl py-10 max-md:text-6xl max-md:text-black">
               get best doctors in{" "}
               <span className="font-extrabold">Medicine</span>!
             </h1>
             <p className="text-3xl py-6 text-black">The world of modern medicine</p>
-            <p className="text-lg font-sans text-black">
+            <p className="text-lg font-sans text-black max-md:text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Blanditiis, provident ea. Ut deserunt blanditiis animi. Nesciunt
               quibusdam expedita harum consequuntur dolore architecto voluptas

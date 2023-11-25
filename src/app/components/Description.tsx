@@ -13,9 +13,9 @@ const Description = () => {
         esse ipsam eos excepturi quidem debitis saepe id fugit. Quia, minima
         debitis.
       </p>
-      <hr className="w-[20%] mx-[40%] my-5 border-blue-500" />
-      <div className="flex flex-row">
-        <div className="w-[60%]">
+      <hr className="w-[20%] mx-[40%] my-5 border-blue-500 border-[1px] max-md:w-[80%] max-md:mx-[10%]" />
+      <div className="flex flex-row max-md:flex-col-reverse">
+        <div className="w-[60%] max-md:w-full">
           <h1 className="font-serif uppercase font-bold my-10 text-blue-500 text-4xl">
             welcome to izina
           </h1>

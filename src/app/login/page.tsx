@@ -13,11 +13,11 @@ function Login() {
     }
   };
   return (
-    <div className="lg:px-[21%] w-full overflow-x-hidden h-[100vh] pt-20">
-      <h1 className="font-bold text-4xl text-blue-500 py-4 transition-all text-center">
+    <div className="lg:px-[21%] w-full overflow-x-hidden h-[100vh] pt-20 max-md:pt-3">
+      <h1 className="font-bold text-4xl text-blue-500 py-4 transition-all text-center max-md:py-1">
         Welcome back to IZINA!
       </h1>
-      <div className=" w-[40%] bg-white rounded-full border-gray-500 border-1 mx-[30%] my-3 shadow-md shadow-gray-400">
+      <div className=" w-[40%] bg-white rounded-full border-gray-500 border-1 mx-[30%] my-3 shadow-md max-md:w-[80%] max-md:mx-[10%] shadow-gray-400">
         <button
           className={`rounded-full py-4 w-[50%] font-semibold ${
             isVisible ? "bg-white border-white" : "bg-blue-500"
@@ -39,13 +39,13 @@ function Login() {
       <form
         action=""
         method="post"
-        className="flex flex-col w-[65%] mx-[17%] bg-white px-4 py-2 rounded-sm"
+        className="flex flex-col w-[65%] mx-[17%] bg-white px-4 py-2 rounded-sm max-md:mx-0 max-md:w-full"
       >
-        <div className="flex">
+        <div className="flex w-full">
           <FontAwesomeIcon
             icon={faEnvelope}
             width={100}
-            className="text-gray-300 mt-10 hover:text-blue-500 w-12"
+            className="text-gray-300 mt-10 hover:text-blue-500 w-8"
             title="email"
           />
           <input
@@ -54,15 +54,15 @@ function Login() {
             id="phoneNumber"
             placeholder="Enter email or phone number"
             required
-            className="border-[1px] border-gray-300 text-left px-3 py-3 rounded-md my-5 w-[90%]"
+            className="border-[1px] border-gray-300 text-left px-3 py-3 rounded-md my-5 w-full"
             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}"
           />
         </div>
-        <div className="flex">
+        <div className="flex w-full">
           <FontAwesomeIcon
             icon={faKey}
             width={100}
-            className="text-gray-300 mt-10 hover:text-blue-500 mx-0 w-12"
+            className="text-gray-300 mt-10 hover:text-blue-500 w-8"
             title="password"
           />
           <input
@@ -71,21 +71,21 @@ function Login() {
             id="password"
             placeholder="Enter password"
             required
-            className="text-left border-gray-300 border-[1px] px-3 py-3 rounded-md my-5 w-[90%]"
+            className="text-left border-gray-300 border-[1px] px-3 py-3 rounded-md my-5 w-full"
             pattern="[a-z0-9._%+-]{6, 15}"
           />
         </div>
-        <div className="flex px-6">
+        <div className="flex px-6 max-md:px-0">
           <input
             type="checkbox"
             name="remember"
             id="remember"
             className="capitalize inline text-left mx-2"
           />
-          <span >Remember Me</span>
+          <span>Remember Me</span>
           <Link
             href="/"
-            className="hover:underline cursor-pointer text-right text-blue-500 ml-36"
+            className="hover:underline cursor-pointer text-right text-blue-500 ml-36 max-md:ml-16"
           >
             Forgot Password?
           </Link>
@@ -95,7 +95,7 @@ function Login() {
           title="login now"
           containerStyles="rounded-md bg-blue-500 font-bold text-xl text-white capitalize py-3 my-5 ml-6"
         />
-        <p className="capitalize text-gray-500 mx-[12%] my-2">
+        <p className="capitalize text-gray-500 mx-[12%] my-2 max-md:mx-6">
           Don't have an account?{" "}
           <Link href={"/signup"} className="underline text-blue-500">
             signup now

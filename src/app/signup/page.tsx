@@ -12,11 +12,11 @@ const Signup = () => {
     }
   };
   return (
-    <div className="lg:px-[23%] w-full overflow-x-hidden pt-20 ">
-      <h1 className="font-bold text-4xl text-blue-500 py-4 transition-all text-center">
-        Welcome back to IZINA!
+    <div className="lg:px-[23%] w-full overflow-x-hidden pt-20 max-md:pt-3">
+      <h1 className="font-bold text-4xl text-blue-500 py-4 transition-all text-center max-md:pt-3">
+        Welcome to IZINA!
       </h1>
-      <div className=" w-[40%] bg-white rounded-full border-gray-500 border-1 mx-[30%] my-3 shadow-md shadow-gray-400">
+      <div className=" w-[40%] bg-white rounded-full border-gray-500 border-1 mx-[30%] my-3 shadow-md shadow-gray-400 max-md:w-[80%] max-md:mx-[10%]">
         <button
           className={`rounded-full py-4 w-[50%] font-semibold ${
             isVisible ? "bg-white border-white" : "bg-blue-500"
@@ -38,7 +38,7 @@ const Signup = () => {
       <form
         action=""
         method="post"
-        className="flex flex-col w-[65%] mx-[20%] bg-white px-4 py-2 rounded-sm"
+        className="flex flex-col w-[65%] mx-[20%] bg-white px-4 py-2 rounded-sm max-md:mx-1 max-md:w-full"
       >
         <input
           type="text"
@@ -92,9 +92,9 @@ const Signup = () => {
           title="sign up"
           containerStyles="rounded-md bg-blue-500 font-bold text-xl text-white capitalize py-2 my-5"
         />
-        <p className="capitalize text-gray-500 mx-[20%] mt-2">
+        <p className="capitalize text-gray-500 mx-[20%] mt-2 max-md:mx-8">
           already have an account?{" "}
-          <Link href={"/login"} className="underline text-blue-500">
+          <Link href="/login" className="underline text-blue-500">
             sign in
           </Link>
         </p>
