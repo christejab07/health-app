@@ -95,7 +95,7 @@ function Login() {
           title="login now"
           containerStyles="rounded-md bg-blue-500 font-bold text-xl text-white capitalize py-3 my-5 ml-6"
         />
-        <p className="capitalize text-gray-500 mx-[12%] my-2 max-md:mx-6">
+        <p className="text-gray-500 mx-[12%] my-2 max-md:mx-6">
           Don't have an account?{" "}
           <Link href={"/signup"} className="underline text-blue-500">
             signup now

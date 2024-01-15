@@ -5,6 +5,7 @@ export interface CustomButtonProps {
 	isDisabled?: boolean;
 	textStyles?: string;
 	onClick?(): void;
+	rightIcon?:string;
 }
 export interface CustomDoctorProps {
 	name: string;
@@ -12,4 +13,9 @@ export interface CustomDoctorProps {
 	specification: string;
 	hospital: string;
 	imageSrc: string;
+}
+export interface DoctorProps{
+	docname: string;
+	docspecification: string;
+	dochospital: string;
 }
