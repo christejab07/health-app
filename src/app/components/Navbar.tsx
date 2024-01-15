@@ -23,13 +23,13 @@ const Navbar = () => {
             <FontAwesomeIcon
               icon={faTimes}
               width={40}
-              className="text-2xl ml-72"
+              className="text-2xl ml-80"
             />
           ) : (
             <FontAwesomeIcon
               icon={faBars}
               width={40}
-              className="text-2xl ml-72"
+              className="text-2xl ml-80"
             />
           )}
         </button>
@@ -67,7 +67,7 @@ const Navbar = () => {
         <Link href="/login" className="flex">
           <Button
             // title="Testimonial"
-            title="login"
+            title="login/signup"
             btnType="button"
             onClick={() => setClick(false)}
             containerStyles="text-black text-xl capitalize font-light hover:text-blue-600 transition-all font-sans rounded-sm px-8 py-2 mx-3 max-lg:mx-0 max-md:text-2xl max-md:hover:text-white max-md:hover:bg-black max-md:w-full"
@@ -80,7 +80,7 @@ const Navbar = () => {
           <FontAwesomeIcon
             icon={faSearch}
             width={20}
-            className="mt-5 max-md:mt-2"
+            className="mt-3 max-md:mt-2"
           />
           <button
             type="button"
@@ -104,10 +104,9 @@ const Navbar = () => {
           <p className="font-bold text-xl my-3 mx-1">English</p>
           <FontAwesomeIcon icon={faChevronDown} width={30} className="mt-5" />
         </Link>
-        <Link href="/signup" className="flex">
+        <Link href="/" className="flex">
           <Button
-            // title="help"
-            title="signup"
+            title="help"
             btnType="button"
             onClick={() => setClick(false)}
             containerStyles="text-black text-xl capitalize font-light hover:text-blue-600 transition-all font-sans rounded-sm px-8 py-2 mx-3 max-lg:mx-0 max-md:text-2xl max-md:hover:text-white max-md:hover:bg-black max-md:w-full"
@@ -117,5 +116,4 @@ const Navbar = () => {
     </>
   );
 };
-// Runner.prototype.gameOver = function()
 export default Navbar;

@@ -7,6 +7,7 @@ import Description from "./Description";
 import Footer from "./Footer";
 import DoctorTemplate from "./doctemp";
 import Booking from "../reserve/page";
+import DoctorDetails from "./DoctorDetails";
 export {
     Homepage,
     Hero,
@@ -15,5 +16,6 @@ export {
     Description,
     Footer,
     DoctorTemplate,
-    Booking
+    Booking,
+    DoctorDetails
 }

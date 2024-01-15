@@ -17,13 +17,14 @@ const Hero = () => {
               get best doctors in{" "}
               <span className="font-extrabold">Medicine</span>!
             </h1>
-            <p className="text-3xl py-6 text-black">The world of modern medicine</p>
+            <p className="text-3xl py-6 text-black">
+              The world of modern medicine
+            </p>
             <p className="text-lg font-sans text-black max-md:text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis, provident ea. Ut deserunt blanditiis animi. Nesciunt
-              quibusdam expedita harum consequuntur dolore architecto voluptas
-              accusamus reprehenderit vitae, repellat consequatur accusantium
-              ipsum.
+              Begin your journey to overall well-being with our health app.
+              Explore a range of features designed to support your healthy
+              lifestyle, from activity tracking to personalized nutrition
+              advice. Your path to a healthier you starts right here.
             </p>
             <Button
               title="get started now"
@@ -33,7 +34,11 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className={`bg-white text-black w-[20%] mt-[4.6rem] ml-[4.3rem] h-[40vh] ${isShow? '': 'hidden'}`}>
+        <div
+          className={`bg-white text-black w-[20%] mt-[4.6rem] ml-[4.3rem] h-[40vh] ${
+            isShow ? "" : "hidden"
+          }`}
+        >
           <Link href="/" className="flex hover:bg-gray-200">
             <Image
               src="/britain.png"

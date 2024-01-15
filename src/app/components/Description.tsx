@@ -8,10 +8,10 @@ const Description = () => {
         About us
       </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iste
-        eveniet deserunt veniam officia veritatis? Perspiciatis quibusdam neque,
-        esse ipsam eos excepturi quidem debitis saepe id fugit. Quia, minima
-        debitis.
+        Take control of your well-being with our health app's streamlined
+        appointment booking feature. Connect with trusted healthcare
+        professionals in just a few taps. Prioritize your health effortlessly
+        and start your journey to a healthier you today.
       </p>
       <hr className="w-[20%] mx-[40%] my-5 border-blue-500 border-[1px] max-md:w-[80%] max-md:mx-[10%]" />
       <div className="flex flex-row max-md:flex-col-reverse">
@@ -23,12 +23,16 @@ const Description = () => {
             why should you choose us?
           </h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum iste
-            id hic laboriosam quaerat rem illum repellat inventore, eum, numquam
-            vel officia qui doloremque nesciunt? Modi nemo animi quas.
-            Dignissimos.
+            Choose our health app for a seamless wellness experience. From
+            effortless appointments to personalized insights, we're here to
+            support your journey to a healthier, happier life. Opt for
+            excellence – choose us as your dedicated partner in well-being.
           </p>
-          <Button title="book an appointment" containerStyles="rounded-full bg-blue-400 py-3 px-8 mx-10 my-10" textStyles="text-white capitalize font-bold text-lg" />
+          <Button
+            title="book an appointment"
+            containerStyles="rounded-full bg-blue-400 py-3 px-8 mx-10 my-10"
+            textStyles="text-white capitalize font-bold text-lg"
+          />
         </div>
         <div className="w-[50%]">
           <Image src="/doctor1.png" alt="doctor1" width={400} height={400} />
