@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Button } from ".";
+import Link from "next/link";
 const Description = () => {
   return (
     <div className="flex flex-col p-10">
@@ -26,13 +27,15 @@ const Description = () => {
             Choose our health app for a seamless wellness experience. From
             effortless appointments to personalized insights, we're here to
             support your journey to a healthier, happier life. Opt for
-            excellence – choose us as your dedicated partner in well-being.
+            excellence - choose us as your dedicated partner in well-being.
           </p>
+          <Link href="/reserve">
           <Button
             title="book an appointment"
             containerStyles="rounded-full bg-blue-400 py-3 px-8 mx-10 my-10"
             textStyles="text-white capitalize font-bold text-lg"
           />
+          </Link>
         </div>
         <div className="w-[50%]">
           <Image src="/doctor1.png" alt="doctor1" width={400} height={400} />

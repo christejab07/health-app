@@ -19,3 +19,10 @@ export interface DoctorProps{
 	docspecification: string;
 	dochospital: string;
 }
+export interface MedicineProps{
+	imageSrc: string;
+	name: string;
+	manufacturer: string;
+	location: string;
+	prix: string;
+}

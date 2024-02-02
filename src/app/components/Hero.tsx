@@ -26,12 +26,13 @@ const Hero = () => {
               lifestyle, from activity tracking to personalized nutrition
               advice. Your path to a healthier you starts right here.
             </p>
+            <Link href="/signup">
             <Button
               title="get started now"
               containerStyles="rounded-sm bg-white p-3 m-10"
               textStyles="text-black font-serif text-xl uppercase font-bold"
-              onClick={showDrop}
             />
+            </Link>
           </div>
         </div>
         <div

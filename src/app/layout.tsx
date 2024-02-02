@@ -5,7 +5,7 @@ import { Navbar } from "./components";
 export const metadata: Metadata = {
   title: "Book your doctor",
   description:
-    "Reserve a spot so that you can be treated well and on your time of availability.",
+    "Reserve a spot so that you can be treated by the best doctors and on your time of availability.",
 };
 
 export default function RootLayout({

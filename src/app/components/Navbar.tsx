@@ -47,7 +47,7 @@ const Navbar = () => {
             containerStyles="text-black text-xl capitalize font-light hover:text-blue-600 transition-all font-sans rounded-sm px-8 py-2 mx-3 max-lg:mx-0 max-md:text-2xl max-md:hover:text-white max-md:hover:bg-black max-md:w-full"
           />
         </Link>
-        <Link href="/" className="flex">
+        <Link href="/doctor" className="flex">
           <Button
             title="About"
             btnType="button"
@@ -104,7 +104,7 @@ const Navbar = () => {
           <p className="font-bold text-xl my-3 mx-1">English</p>
           <FontAwesomeIcon icon={faChevronDown} width={30} className="mt-5" />
         </Link>
-        <Link href="/" className="flex">
+        <Link href="/medicine" className="flex">
           <Button
             title="help"
             btnType="button"

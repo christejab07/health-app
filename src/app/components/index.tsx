@@ -5,9 +5,9 @@ import Button from "./Button";
 import Navbar from "./Navbar";
 import Description from "./Description";
 import Footer from "./Footer";
-import DoctorTemplate from "./doctemp";
+import DoctorTemplate from "../doctors/doctemp";
 import Booking from "../reserve/page";
-import DoctorDetails from "./DoctorDetails";
+import MedTemplate from "../medicine/medTemplate";
 export {
     Homepage,
     Hero,
@@ -17,5 +17,5 @@ export {
     Footer,
     DoctorTemplate,
     Booking,
-    DoctorDetails
+    MedTemplate
 }

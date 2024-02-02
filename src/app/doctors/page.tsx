@@ -62,7 +62,7 @@ const Doctors = () => {
         />
         <hr className="border-gray-300 rounded-md w-full border-4" />
         <DoctorTemplate
-          name="anne marie"
+          name="anne mugenzi"
           imageSrc="/doctor4.avif"
           specification="oncologist"
           hospital="Butaro hospital, rwanda"
