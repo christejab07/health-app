@@ -11,9 +11,9 @@ const Hero = () => {
   return (
     <>
       <div className="flex px-20 py-2 bg-hero-bg bg-no-repeat bg-cover max-md:px-5">
-        <div className="flex-row flex padding-x text-white capitalize lg:w-[60%]">
+        <div className="flex-row flex padding-x text-white lg:w-[60%]">
           <div className="pt-20">
-            <h1 className="font-medium font-sans text-8xl py-10 max-md:text-6xl max-md:text-black">
+            <h1 className="font-medium font-sans text-8xl capitalize py-10 max-md:text-6xl max-md:text-black">
               get best doctors in{" "}
               <span className="font-extrabold">Medicine</span>!
             </h1>

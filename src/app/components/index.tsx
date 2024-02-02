@@ -17,5 +17,5 @@ export {
     Footer,
     DoctorTemplate,
     Booking,
-    MedTemplate
+    MedTemplate,
 }
